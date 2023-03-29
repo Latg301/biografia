@@ -1,0 +1,73 @@
+body {
+    background: rgba(29, 84, 179, 0.8);
+    margin: 10% 20%;
+    font-family: "Space Grotesk", sans-serif;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+.text {
+    font-size: 30px;
+}
+
+.box {
+    margin: 50px;
+}
+
+.gaboM {
+    display: block;
+    height: 500px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.video {
+    height: 300px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+}
+
+.books {
+    display: flex;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+
+.book {
+    border: 3px rebeccapurple solid;
+    text-align: center;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.book img {
+    height: 400px;
+    width: auto;
+}
+
+.book1 {
+    background-color: mistyrose;
+}
+
+.book2 {
+    background-color: aquamarine;
+}
+
+.book3 {
+    background-color: blanchedalmond;
+}
+
+.book4 {
+    background-color: mintcream;
+}
